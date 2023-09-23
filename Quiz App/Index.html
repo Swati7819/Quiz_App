@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+    </style>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+  </head>
+  <body>
+    <!-- heading  -->
+    <h1 id="main-heading">It's Quiz Time</h1>
+   <!-- main container  -->
+    <div class="main">
+        <!-- main box  -->
+      <div class="box">
+        <h2 id="question">1) This is a dummy question</h2>
+        <!-- options to question  -->
+        <div class="row">
+          <input
+            class="options"
+            id="option1"
+            type="radio"
+            value="a"
+            name="name"
+          />
+          <label for="option1">a) Option 1</label>
+        </div>
+        <div class="row">
+          <input
+            class="options"
+            id="option2"
+            type="radio"
+            value="b"
+            name="name"
+          />
+          <label for="option2">b) Option 2</label>
+        </div>
+        <div class="row">
+          <input
+            class="options"
+            id="option3"
+            type="radio"
+            value="c"
+            name="name"
+          />
+          <label for="option3">c) Option 3</label>
+        </div>
+        <div class="row">
+          <input
+            class="options"
+            id="option4"
+            type="radio"
+            value="d"
+            name="name"
+          />
+          <label for="option4">d) Option 4</label>
+        </div>
+       <!-- submit button  -->
+        <button class="btn" onclick="SubmitQuiz()">Submit</button>
+      </div>
+    </div>
+     <!-- Adding JavaScript to code  -->
+    <script src="Main.js"></script>
+  </body>
+</html>
