@@ -32,4 +32,3 @@ To use this Quiz App:
 2. Open the `index.html` file in a web browser to run the Quiz App.
 3. Users can select an option for each question and click the "Submit" button to check their answers.
 
-Feel free to customize the questions, options, and styling to create your own quiz content.
